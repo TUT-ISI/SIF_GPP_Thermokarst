@@ -1,0 +1,80 @@
+{
+    "localNeus": {
+        "input_dir": {
+            "general": "/path/SIF_GPP/database_input",
+            "computed": "/path/SIF_GPP/codes/data/Computed_data/",
+            "BAWLD": "/path/SIF_GPP/database_input",
+            "thermokarst": "/path/SIF_GPP/database_input",
+            "GPP_SIF_time": "/path/SIF_GPP/codes/data/Computed_data/GPP_SIF_time.mat",
+            "GEEPRI": "/path/SIF_GPP/GEEPRI/",
+            "SIFGPPOLSslopeSunShade": "/path/SIF_GPP/codes/Atmosrad-SIF/data/SIFGPPOLSslopeSunShade",
+            "SIFGPPOLSslopeSunShadeMonthly": "/path/SIF_GPP/codes/Atmosrad-SIF/data/SIFGPPOLSslopeSunShadeMonthly",
+            "SIFGPPFluxSatslope": "/path/SIF_GPP/Data_SIF_GPP_slopes/GOSIF_FluxSatGPP_slope/",
+            "SIFGPPFluxSatslopeMonthly": "/path/SIF_GPP/codes/Atmosrad-SIF/data/SIFGPPOLSslopeMonthly",
+            "OCO2": "/path/SIF_GPP/database_input/OCO2_3_data/OCO2_SIF_v11Lite/OCO_2/",
+            "GEO": "/path/SIF_GPP/codes/data/Computed_data/",
+            "cSIF":"/path/SIF_GPP/database_input/cSIF/",
+            "cSIFHR": "/path/SIF_GPP/cSIF/",
+            "IGBP": "/path/SIF_GPP/IGBP_classification/data/",
+            "ERA5": "/path/SIF_GPP/ERA5/",
+            "ERA5_Land8day": "/path/SIF_GPP/database_input/ERA5_Land_8day/",
+            "ARCLIM": "/path/SIF_GPP/database_input/ARCLIM/self_calculated/",  
+            "ERA5T2m": "/path/SIF_GPP/database_input/ERA5T2m/",
+            "GOSAT": "/path/SIF_GPP/GOSAT/L3_SIF/",
+            "permafrost": "/path/SIF_GPP/PERMAFROST/",
+            "CORINE_LCC": "/path/SIF_GPP/codes/gee/CORINE_LCC/",
+            "peatland":"/path/SIF_GPP/database_input/Hugelius_etal_2020_PNAS_supplement_grids_10km_Int_WAED/"
+        },
+        "output_dir": {
+            "general": "/path/SIF_GPP/figures_all/figs/",
+            "BAWLD": "/path/SIF_GPP/figures_all/figs",
+            "thermokarst": "/path/SIF_GPP/figures_all/figs"
+        },
+        "matlab_paths":{
+            "mappingToolbox":"/path/Documents/MATLAB/m_map",
+            "simpleR-master":"/path/Documents/MATLAB/simpleR-master",
+            "googleearth":"/paths/MATLAB/googleearth_matlab/googleearth"
+        }
+    },
+    "localAnttiL": {
+        "input_dir": "/path/to/local/input",
+        "output_dir": "/path/to/local/output"
+    },
+    "server": {
+        "input_dir": { 
+            "general": "/fmi/scratch/project_2005798/data",
+            "computed": "/fmi/scratch/project_2005798/data/Computed_data/",
+            "BAWLD": "/fmi/scratch/project_2005798/data/BAWLD",
+            "thermokarst": "/fmi/scratch/project_2005798/data/Thermokast",
+            "GPP_SIF_time": "/fmi/scratch/project_2005798/data/Computed_data/GPP_SIF_time.mat",
+            "GEEPRI": "/fmi/scratch/project_2005798/data/data/GEEPRI/",
+            "SIFGPPOLSslopeSunShade": "/fmi/scratch/project_2005798/data/Computed_data/SIFGPPOLSslopeSunShade",
+            "SIFGPPOLSslopeSunShadeMonthly": "/fmi/scratch/project_2005798/data/Computed_data/SIFGPPOLSslopeSunShadeMonthly",
+            "SIFGPPFluxSatslope": "/fmi/scratch/project_2005798/data/Computed_data/GOSIF_FluxSatGPP_slope/",
+            "SIFGPPFluxSatslopeMonthly": "/fmi/scratch/project_2005798/data/Computed_data/SIFGPPOLSslopeMonthly",
+            "OCO2": "/fmi/scratch/project_2005798/data/database_input/OCO2_3_data/OCO2_SIF_v11Lite/OCO_2/",
+            "GEO": "/fmi/scratch/project_2005798/data/Computed_data/",
+            "cSIF":"/fmi/scratch/project_2005798/data/cSIFclear/",
+            "cSIFHR": "/fmi/scratch/project_2005798/data/cSIFclearHR/",
+            "IGBP": "/fmi/scratch/project_2005798/data/Computed_data/",
+            "ERA5": "/fmi/scratch/project_2005798/data/ERA5/",
+            "ERA5_Land8day": "/fmi/scratch/project_2005798/data/ERA5_Land_8day/",
+            "ARCLIM": "/fmi/scratch/project_2005798/data/ARCLIM_2/data/ARCLIM/self_calculated/",
+            "ERA5T2m": "/fmi/scratch/project_2005798/data/ERA5T2m/",
+            "GOSAT": "/fmi/scratch/project_2005798/data/GOSAT/L3_SIF/",
+            "permafrost": "/fmi/scratch/project_2005798/data/PERMAFROST/",
+            "CORINE_LCC": "/fmi/scratch/project_2005798/data/gee/CORINE_LCC/",
+            "NDVI":"/fmi/scratch/project_2005798/data/NDVI"
+        },
+        "output_dir": {
+            "general": "/fmi/scratch/project_2005798/figures_all/figs/",
+            "BAWLD": "/fmi/scratch/project_2005798/figures_all/figs",
+            "thermokarst": "/fmi/scratch/project_2005798/figures_all/figs"
+        },
+        "matlab_paths":{
+            "mappingToolbox":"/fmi/projappl/project_2005798/Matlab_env/MATLAB/m_map",
+            "simpleR-master":"/fmi/projappl/project_2005798/Matlab_env/MATLAB/simpleR-master",
+            "googleearth":"/fmi/projappl/project_2005798/Matlab_env/MATLAB/googleearth_matlab/googleearth"
+        }
+    }
+}
